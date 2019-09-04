@@ -1,5 +1,5 @@
 {
-    "name": "glue - agency / craft - hash",
+    "name": "glue-agency/craft-hash",
     "description": "Twig filter for hashing.",
     "type": "craft-plugin",
     "version": "1.0.0",
