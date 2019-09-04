@@ -1,0 +1,40 @@
+{
+    "name": "glue - agency / craft - hash",
+    "description": "Twig filter for hashing.",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "craft hash"
+    ],
+    "support": {
+        "docs": "https://github.com/glue-agency/craft-hash/blob/master/README.md",
+        "issues": "https://github.com/glue-agency/craft-hash/issues"
+    },
+    "license": "GNU",
+    "authors": [
+        {
+            "name": "Glue Agency",
+            "homepage": "https://glue.be"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0-RC1"
+    },
+    "autoload": {
+        "psr-4": {
+          "gluecrafthash\\crafthash\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Craft Hash",
+        "handle": "craft-hash",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "changelogUrl": "https://raw.githubusercontent.com/glue-agency/craft-hash/master/CHANGELOG.md",
+        "class": "gluecrafthash\\crafthash\\CraftHash"
+    }
+}
